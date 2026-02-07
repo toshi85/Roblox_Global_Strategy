@@ -32,7 +32,7 @@ Avoid "Human" or "Generic Roblox". Aim for **"Toy/Mascot Horror"** vibes.
 *   **Risk**: Low as long as quality is high. Avoid mass production/spam.
 
 ## 6. Project Structure
-`Antigravity/Roblox_Global_Strategy/`
+`Antigravity/ロブロックス海外/`
 *   `Scripts/`: Non-verbal storyboards.
 *   `Assets/`: Character reference sheets (Screenshots).
 *   `Audio/`: SFX libraries (Splice/Epidemic).
