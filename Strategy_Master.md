@@ -87,11 +87,61 @@ To prevent accidental "Japanese Searches" or cookie pollution:
     *   **Don't**: Search for `天気 (Weather)` or `ニュース (News)` in Japanese. One slip can pollute the recommended feed.
     *   **The "Zero-Touch" Myth**: Don't just leave it empty. An empty account defaults to IP location (Japan). You MUST seed it with English watch history.
 
-## 5. Monetization Defense (The 8:2 Logic)
-*   **Originality**: Owned Character IP.
-*   **Human Effort**: Manual Sound Design & Story Structure are the "Editorial Proof".
-*   **Human Effort**: Manual Sound Design & Story Structure are the "Editorial Proof".
-*   **Risk**: Low as long as quality is high. Avoid mass production/spam.
+## 5. Monetization Defense (Comprehensive)
+
+### 5.0 Risk Context (2026 YouTube Crackdown)
+YouTube deleted 16 major AI channels (35M subs, 4.7B views) in Jan 2026. Roblox shorts are a saturated market with thousands of similar channels. Our defense relies on **proving human involvement** at every stage.
+
+**Key Stats**: Of ~80 suspended channels analyzed, only 19% recovered. Prevention is everything.
+
+**Our Differentiation**:
+*   ✅ Owned Character IP (Object Heads — not generic Roblox avatars)
+*   ✅ Human Foley + Pitch-shifted Simlish (no AI voices)
+*   ✅ Weekly 2-3 posts (not daily spam)
+*   ✅ Account isolation (Firefox-only, English-only)
+*   ⚠️ Google Veo 3 visuals → **AI disclosure mandatory** in every description
+*   ⚠️ Non-verbal format → must prove "editorial effort" through sound design + story structure
+
+### 5.0.1 Production Evidence Archive (CRITICAL)
+Every video must have a production evidence folder for appeal readiness:
+*   📁 Location: `ロブロックス海外/Production_Evidence/YYYY-MM-DD_<title>/`
+*   Required files per video:
+    1. `foley_raw/` — Raw foley/voice recordings (pre-pitch-shift)
+    2. `veo3_prompts.md` — All Veo 3 prompts used + generation settings
+    3. `storyboard.md` — Original storyboard/shot list
+    4. `edit_notes.md` — What was manually edited/adjusted from AI output
+    5. `timeline_screenshot.png` — Screenshot of editing timeline (DaVinci/Premiere)
+*   **Retention**: Keep all evidence for minimum 12 months
+*   See: `ロブロックス海外/Production_Evidence_Guide.md` for full details
+
+### 5.0.2 Description Individualization (NO-GO if violated)
+Template descriptions trigger "mass-produced content" detection:
+*   **Each video must have a unique description** — no copy-paste
+*   Required elements in every description:
+    1. **Story summary** (2-3 unique sentences about THIS specific video)
+    2. **AI disclosure**: "Visuals created with AI tools (Google Veo 3), with manual editing and direction."
+    3. **Human credits**: "Sound Design: [name] | Voice/Foley: [name] | Story: [name]"
+    4. **Character info**: Brief character mention (varies per video)
+*   **Automated check**: `validate_authenticity.py --channel roblox` will flag template descriptions
+*   See: `ロブロックス海外/Description_Guide.md` for templates and examples
+
+### 5.0.3 Story Archetype Rotation (Anti-Template)
+To prevent YouTube from detecting repetitive content patterns:
+*   **8 archetypes** available (Section 7.2 + Section 8)
+*   **Rule**: Same archetype cannot be used 3 times consecutively
+*   **Rule**: Each archetype should appear at most 40% of total videos per month
+*   **Automated check**: `validate_originality.py --channel roblox` tracks archetype usage
+*   Monthly review: Check archetype distribution is balanced
+
+### 5.0.4 Visual Diversity Requirements
+*   **Camera angles**: Vary per video (static/tracking/zoom/tilt). No 3+ videos with identical framing
+*   **Color grading**: Match theme (horror=blue-green, comedy=warm, drama=desaturated)
+*   **Backgrounds**: Same Roblox map cannot be primary location for 3+ consecutive videos
+*   **Transitions**: Develop 3+ custom transitions using Object Head characters
+
+### 5.0.5 Account Health Audit (Monthly)
+*   📋 See: `ロブロックス海外/Account_Audit_Checklist.md`
+*   Monthly checks: browser isolation, watch history, audience geography, description uniqueness
 
 ### 5.1 Content Maturity (Adult Themes)
 *   **Concept**: Yes, "Roblox Drama" (Cheating, Breakups, Exposing) is a massive Tier 1 niche (Storytime Animation).
